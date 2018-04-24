@@ -29,8 +29,12 @@ WEEK 1:
 WEEK 2:
 	Monday, April 16th 7:00pm-10:00pm, 3 hours: Planning layout of house interior, looking for decorations, rethinking how to relate props to experiment
 	Tuesday, April 17th 11:00pm-12:00am, 1 hour: watching mirror tutorials and attempting to build mirror (failed, lacked requisite plugins), looked for mirror in asset store (failed)
-	Wednesday, April 18th 10:00am-12:00pm, 2 hours: Reading related research articles in order to better understand the standard approach to similar experiments previously conducted in the VR field 
-	TOTAL: 6 hours
+	Wednesday, April 18th 10:00am-12:00pm, 2 hours: Reading related research articles in order to better understand the standard approach to similar experiments previously conducted in the VR field
+	Wednesday, April 18th 1:00pm-4:00pm, 3 hours: Maya tutorials, searching Asset Store, modeling interior
+	Wednesday, April 18th 7:00pm-12:00am, 5 hours: Modeling interior, coding wheelchair movement using Unity Physics Engine and failing
+	Thursday, April 19th 12:00am-3:00am, 3 hours: Fixing unexpected Git problems
+	Thursday, April 19th 12:00pm-1:00pm, 1 hour: Finished wheelchair movement using Transforms
+	TOTAL: 18 hours
 
 
 Kinsey:
@@ -53,4 +57,10 @@ WEEK 2:
 	TOTAL: 20 hours
 
 WEEK 3:
+	Friday, April 20th 4:00pm-7:00pm, 3 hours: Maya tutorials, Maya (Room, avatar)
+	Monday, April 23rd 5:00pm-6:00pm, 1 hour: Maya (Room)
+	Monday, April 23rd 7:00pm-9:00pm, 2 hours: Maya (Room)
+	Tuesday, April 24th 
+	Wednesday, April 25th
+	TOTAL: 6 hours
 		
