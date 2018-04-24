@@ -4,19 +4,51 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour {
 
-	public float thrust = 5.0f;
-
+	public float handling = 30.0f;
+	private float speed = 0.0f;
 	// Use this for initialization
 	void Start () {
-		
+
 	}
-	
+	void reset_speed() {
+		if (speed > 3) {
+			speed = 3;
+		}
+		else if (speed < -3) {
+			speed = -3;
+		}
+	}
+	void apply_friction() {
+		if (speed > 0.1) {
+			speed -= 0.1f;
+		} 
+		else if (speed < -0.1) {
+			speed += 0.1f;
+		} 
+		else {
+			speed = 0;
+		}
+	}
+
+	void OnCollisionEnter() {
+		speed = 0;
+	}
+
 	// Update is called once per frame
 	void FixedUpdate () {
-		float moveHorizontal = Input.GetAxis ("Horizontal");
-		float moveVertical = Input.GetAxis ("Vertical");
+		float spinHorizontal = Input.GetAxis ("Horizontal");
+		float moveVertical = -Input.GetAxis ("Vertical");
 
-		Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
-		transform.Translate (movement * thrust * Time.deltaTime);
+		if (moveVertical != 0) {
+			speed += moveVertical;
+		}
+
+		reset_speed (); //limits speed to a certain range
+		apply_friction(); //reduces speed of object
+		transform.position += transform.forward * speed * Time.deltaTime;
+
+		Vector3 rotation = new Vector3 (0.0f, spinHorizontal, 0.0f);
+		transform.Rotate (rotation * handling * Time.deltaTime);
+
 	}
 }
