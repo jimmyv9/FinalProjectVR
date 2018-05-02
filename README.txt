@@ -36,6 +36,9 @@ WEEK 2:
 	Thursday, April 19th 12:00pm-1:00pm, 1 hour: Finished wheelchair movement using Transforms
 	TOTAL: 18 hours
 
+WEEK 3:
+	
+
 
 Kinsey:
 
@@ -60,7 +63,9 @@ WEEK 3:
 	Friday, April 20th 4:00pm-7:00pm, 3 hours: Maya tutorials, Maya (Room, avatar)
 	Monday, April 23rd 5:00pm-6:00pm, 1 hour: Maya (Room)
 	Monday, April 23rd 7:00pm-9:00pm, 2 hours: Maya (Room)
-	Tuesday, April 24th 
-	Wednesday, April 25th
-	TOTAL: 6 hours
+	Tuesday, April 23rd 12:00am-1:00am, 1 hour: Wheelchair movement troubleshooting, Git
+	Tuesday, April 24th 1:00pm-2:00pm, 1 hour: Decorating scene
+	Friday, April 27th 10:30pm-12:30am, 2 hours: Maya tutorials
+	Tuesday, May 1st 
+	TOTAL: 10 hours
 		

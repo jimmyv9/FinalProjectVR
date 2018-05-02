@@ -31,7 +31,8 @@ public class Movement : MonoBehaviour {
 	}
 
 	void OnCollisionEnter() {
-		speed = 0;
+        Debug.Log("Wheelchair is hitting some sort of object");
+        speed = 0;
 	}
 
 	// Update is called once per frame
